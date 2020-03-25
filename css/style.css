@@ -419,6 +419,14 @@ img {
 }
 
 
+/* DESTAQUES
+--------------------*/
+
+.col.destaque {
+    margin-bottom: 20px;
+}
+
+
 /* BREAKPOINT MÁXIMO
 --------------------*/
 
@@ -516,6 +524,17 @@ img {
     }
     .col.destino:first-child {
         width: 100%;
+    }
+    /* DESTAQUES
+--------------------*/
+    .col.destaque {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+        margin-bottom: 2%;
+    }
+    .col.destaque:nth-of-type(2n+0) {
+        margin-right: 0;
     }
 }
 

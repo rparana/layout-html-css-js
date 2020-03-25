@@ -19,8 +19,8 @@
 - [x] Estilizar Paralax
 
 ### Etapa 4:
-- [] Criação seção Destaques
-- [] Estilizar Destaques
+- [x] Criação seção Destaques
+- [x] Estilizar Destaques
 
 ### Etapa 5:
 - [] Criação seção Testemunhas
