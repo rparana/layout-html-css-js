@@ -11,8 +11,8 @@
 - [x] Criar menu e topo com estatisticas responsivel
 
 ### Etapa 2:
-- [] Desenvolver seção de destinos
-- [] Estilizar boxes Destino.
+- [x] Desenvolver seção de destinos
+- [x] Estilizar boxes Destino.
 
 ### Etapa 3:
 - [] Criação do Paralax
