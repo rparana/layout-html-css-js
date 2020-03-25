@@ -23,8 +23,8 @@
 - [x] Estilizar Destaques
 
 ### Etapa 5:
-- [] Criação seção Testemunhas
-- [] Estilizar Testemunhas
+- [x] Criação seção Testemunhas
+- [x] Estilizar Testemunhas
 
 ### Etapa 6:
 - [] Criação do Footer
