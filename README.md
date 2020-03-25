@@ -4,7 +4,7 @@
 ## Linguagem HTM5 / JS / CSS / fontawesome
 
 ## Layout pretendido.
-[![Layout](https://prntscr.com/rmkz5b)]
+![Layout](LAYOUT.jpg)
 
 ### Etapa 1:
 - [x] Iniciar a estrutura do layout (HTML e CSS).
