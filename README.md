@@ -15,8 +15,8 @@
 - [x] Estilizar boxes Destino.
 
 ### Etapa 3:
-- [] Criação do Paralax
-- [] Estilizar Paralax
+- [x] Criação do Paralax
+- [x] Estilizar Paralax
 
 ### Etapa 4:
 - [] Criação seção Destaques
