@@ -27,6 +27,9 @@
 - [x] Estilizar Testemunhas
 
 ### Etapa 6:
-- [] Criação do Footer
-- [] Estilizar Footer
+- [x] Criação do Footer
+- [x] Estilizar Footer
+
+### Etapa 7:
+- [] Refatoração
 

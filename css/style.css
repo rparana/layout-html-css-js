@@ -386,7 +386,7 @@ img {
     color: #FFF;
     font-size: 23px;
     padding: 160px 0;
-    margin: 60px 0;
+    margin-top: 60px;
     background-image: url('../images/bg-paralax.jpg');
     background-size: cover;
     background-position: center;
@@ -432,7 +432,7 @@ img {
 
 .testemunhas {
     padding: 80px 0;
-    margin: 60px 0;
+    margin-top: 60px;
     background-image: url('../images/bg-testemunhas.jpg');
     background-size: cover;
     background-position: center;
@@ -452,6 +452,11 @@ img {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
+    -ms-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
 }
 
 .testemunha-article h1 {
@@ -485,6 +490,71 @@ img {
 .testemunha-article .name {
     color: #f9014d;
     font-weight: bold;
+}
+
+
+/* FOOTER
+--------------------*/
+
+.footer {
+    background: #181818;
+    float: left;
+    width: 100%;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-col {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.footer-col h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-uteis li {
+    padding: 10px 0;
+}
+
+.footer-uteis li:not(:last-of-type) {
+    border-bottom: 1px solid #fff;
+}
+
+.footer-social li {
+    padding: 10px 0;
+}
+
+.footer-social li .fab {
+    background: #000;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.footer-col li a {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.footer-copyright {
+    margin: 10px 0;
+    padding-top: 20px;
+    border-top: 1px solid #fff;
 }
 
 
@@ -606,6 +676,19 @@ img {
     }
     .testemunha-article:last-of-type {
         margin-right: 0;
+    }
+    /*Footer
+    ---------------*/
+    .footer-col.sobre {
+        width: 40%;
+    }
+    .footer-col.uteis {
+        width: 30%;
+        margin-left: 5%;
+    }
+    .footer-col.social {
+        width: 20%;
+        float: right;
     }
 }
 
