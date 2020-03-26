@@ -120,11 +120,6 @@ img {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
-    -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
-    -ms-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
-    -o-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
 }
 
 .box-badge {
@@ -136,6 +131,7 @@ img {
     top: 10px;
     font-size: 14px;
     padding: 5px 10px;
+    border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -277,9 +273,6 @@ img {
     color: #FFF;
     padding: 100px 0;
     background-image: url('../images/bg-search.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .search-box h1 {
@@ -351,11 +344,6 @@ img {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
-    -ms-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
-    -o-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
 }
 
 .estatistica-item span {
@@ -388,9 +376,6 @@ img {
     padding: 160px 0;
     margin-top: 60px;
     background-image: url('../images/bg-paralax.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .paralax h1 {
@@ -434,9 +419,6 @@ img {
     padding: 80px 0;
     margin-top: 60px;
     background-image: url('../images/bg-testemunhas.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .testemunha-article {
@@ -452,11 +434,6 @@ img {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
-    -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
-    -ms-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
-    -o-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
 }
 
 .testemunha-article h1 {
@@ -714,6 +691,21 @@ img {
 
 /* AUXILIARES
 -----------------*/
+
+.box-shadow {
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
+    -ms-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .12), 0px 3px 1px -2px rgba(0, 0, 0, .12), 0px 1px 5px 0px rgba(0, 0, 0, .2);
+}
+
+.bg-fixed {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 
 .text-center {
     text-align: center;

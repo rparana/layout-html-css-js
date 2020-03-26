@@ -31,5 +31,5 @@
 - [x] Estilizar Footer
 
 ### Etapa 7:
-- [] Refatoração
+- [x] Refatoração
 
